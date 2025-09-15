@@ -2,3 +2,4 @@
 *zip
 .env
 __pycache__/
+data
