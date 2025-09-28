@@ -1,0 +1,19 @@
+/* Expande o container principal */
+.md-grid {
+  max-width: 1500px;  /* ajuste o valor (px ou %) */
+}
+
+/* Justificar todos os parágrafos */
+.md-typeset p {
+  text-align: justify;
+}
+
+/* Opcional: manter títulos alinhados à esquerda */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  text-align: left;
+}

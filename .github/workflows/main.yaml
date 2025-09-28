@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  - push
+  - pull_request
+
+env:
+  CI: true
+
+jobs:
+  deploy:
+    # publica só em push na main
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Instala o uv e habilita cache
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      # (Opcional, mas acelera o primeiro run)
+      # Se existir .python-version, "pre-baixa" essa versão.
+      - name: Pre-install pinned Python (optional)
+        if: hashFiles('.python-version') != ''
+        run: |
+          uv python install "$(cat .python-version)"
+
+      - run: uv sync --locked --extra docs-all
+      - run: uv run mkdocs gh-deploy --force
+
