@@ -2,7 +2,7 @@ site_name: Predição de Churn
 site_author: Gomes, E, Melo, L & Kao, L.
 site_url: https://esdrasgc.github.io/customer-churn-prediction-kaggle
 repo_url: https://github.com/esdrasgc/customer-churn-prediction-kaggle
-repo_name: github.com/customer-churn-prediction-kaggle
+repo_name: github/customer-churn-prediction-kaggle
 
 theme:
   name: material
@@ -99,7 +99,7 @@ plugins:
       enable_creation_date: true
   - git-authors
   - git-committers:
-      repository: luccagkao/luccagkao.github.com
+      repository: esdrasgc/customer-churn-prediction-kaggle
       branch: main
   - search
   - badges
