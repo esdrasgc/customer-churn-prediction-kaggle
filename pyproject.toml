@@ -15,30 +15,27 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "scipy>=1.16.2",
     "seaborn>=0.13.2",
-
     # núcleo
-    "mkdocs-material>=9.5",                # tema Material
-    "mkdocs-material-extensions>=1.3",     # p/ material.extensions.*
-    "pymdown-extensions>=10.8",            # p/ recursos avançados de Markdown
-
+    "mkdocs-material>=9.5", # tema Material
+    "mkdocs-material-extensions>=1.3", # p/ material.extensions.*
+    "pymdown-extensions>=10.8", # p/ recursos avançados de Markdown
     # notebooks
-    "mkdocs-jupyter>=0.24",                # renderiza .ipynb como páginas
+    "mkdocs-jupyter>=0.24", # renderiza .ipynb como páginas
     # (opcional) se quiser editar/parear .py<->.ipynb:
     # "jupytext>=1.16",
-
     # plugins já vistos no seu YAML/logs
-    "markdown-exec>=1.7",                  # plugin p/ executar blocos
-    "markdown-grid-tables>=0.4",           # extensão markdown_grid_tables
-    "mkdocs-glightbox>=0.4",               # lightbox p/ imagens
-    "mkdocs-badges>=0.4",                  # badges
+    "markdown-exec>=1.7", # plugin p/ executar blocos
+    "markdown-grid-tables>=0.4", # extensão markdown_grid_tables
+    "mkdocs-glightbox>=0.4", # lightbox p/ imagens
+    "mkdocs-badges>=0.4", # badges
     "mkdocs-render-swagger-plugin>=0.0.5", # Swagger/OpenAPI
-    "mkdocs-redirects~=1.2",               # redirecionamentos (última 1.2.2)
-    "mkdocs-git-authors-plugin>=0.9",      # autores por página (git blame)
+    "mkdocs-redirects~=1.2", # redirecionamentos (última 1.2.2)
+    "mkdocs-git-authors-plugin>=0.9", # autores por página (git blame)
     "mkdocs-git-committers-plugin-2>=2.5", # lista de contribuidores
-    "termynal>=0.11",                      # terminais animados (plugin termynal)
+    "termynal>=0.11", # terminais animados (plugin termynal)
     "mkdocs-git-revision-date-localized-plugin>=1.4",
     "mkdocs-minify-plugin>=0.8",
-
+    "missingno>=0.5.2",
 ]
 
 [project.optional-dependencies]

@@ -129,7 +129,11 @@ extra_css:
 
 nav:
   - Home: index.md
-  # - Capítulos:
-  #     - Dados: ./exercicios/dados/dados.ipynb
-  #     - Perceptron: ./exercicios/perceptron/perceptron.ipynb
-  #     - MPL: ./exercicios/mpl/mlp.ipynb
+  - Etapas do projeto:
+      - Dataset Selection: ./dataset/dataset_selection.md
+      - Dataset Explanation: ./dataset/dataset_explanation.md
+      # - Data Cleaning: ./data_cleaning/data_cleaning.md
+      # - Exploratory Data Analysis: ./eda/eda.md
+      # - Model Training: ./model_training/model_training.md
+      # - Hyperparameter Tuning: ./hyperparameter_tuning/hyperparameter_tuning.md
+      # - Model Evaluation: ./model_evaluation/model_evaluation.md
