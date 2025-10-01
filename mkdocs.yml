@@ -87,7 +87,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
-      custom_checkbox: true  
+      custom_checkbox: true
   - toc:
       permalink: true
       toc_depth: 2-5
@@ -115,12 +115,10 @@ plugins:
       execute: true
       include_source: true
       kernel_name: python3
-
 extra_javascript:
   - javascripts/katex.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
-  
   
 extra_css:
   - stylesheets/overrides.css
@@ -129,5 +127,15 @@ extra_css:
 nav:
   - Home: index.md
   - Etapas do projeto:
-      - Dataset Selection: ./dataset/dataset_selection.md
-      - Dataset Explanation: ./dataset/dataset_explanation.md
+    - Dataset Selection: ./dataset/dataset_selection.md
+    - Dataset Explanation: ./dataset/dataset_explanation.md
+    - Data Cleaning & Normalization: ./training/data_cleaning_normalization.md
+    - MLP Implementation: ./training/mlp_implementation.md
+    - Model Training: ./training/model_training.md
+    - Training & Testing Strategy: ./training/training_testing_strategy.md
+    - Error Curves & Visualization: ./evaluation/error_curves.md
+    - Evaluation Metrics: ./evaluation/metrics.md
+  - Compliance Checklist: ./checklist.md
+  - Competition Submission: ./competition.md
+  - Conclusion: ./conclusion.md
+  - References: ./references.md
