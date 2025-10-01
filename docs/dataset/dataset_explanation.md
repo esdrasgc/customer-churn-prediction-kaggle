@@ -72,7 +72,7 @@ Com relação a distribuição dos dados, e esses perante as classes 0 e 1 da va
 
 <!-- ![Distribuição do target](../plots_eda/01_target_distribution.png) -->
 <figure markdown>
-  <img src="../plots_eda/01_target_distribution.png" alt="Distribuição do target">
+  <img src="../../plots_eda/01_target_distribution.png" alt="Distribuição do target">
   <figcaption><strong>Figura 1 — Distribuição do target (Churn)</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
@@ -80,7 +80,7 @@ Analisando agora as variáveis categórias contra a variável target (Churn), po
 
 <!-- ![Distribuição do target contra variáveis categórias](../plots_eda/02_categorical_analysis.png) -->
 <figure markdown>
-  <img src="../plots_eda/02_categorical_analysis.png" alt="Distribuição do target por variáveis categóricas">
+  <img src="../../plots_eda/02_categorical_analysis.png" alt="Distribuição do target por variáveis categóricas">
   <figcaption><strong>Figura 2 — Churn por variáveis categóricas</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
@@ -90,13 +90,13 @@ Com relação as variáveis numéricas, e distribuição das observações, é p
 
 <!-- ![Distribuição do target contra variáveis numéricas](../plots_eda/03_numeric_distributions.png) -->
 <figure markdown>
-  <img src="../plots_eda/03_numeric_distributions.png" alt="Distribuições numéricas por classe de Churn">
+  <img src="../../plots_eda/03_numeric_distributions.png" alt="Distribuições numéricas por classe de Churn">
   <figcaption><strong>Figura 3 — Distribuições numéricas por classe</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
 <!-- ![Boxplots contra target](../plots_eda/04_boxplots_by_target.png) -->
 <figure markdown>
-  <img src="../plots_eda/04_boxplots_by_target.png" alt="Boxplots por classe de Churn">
+  <img src="../../plots_eda/04_boxplots_by_target.png" alt="Boxplots por classe de Churn">
   <figcaption><strong>Figura 4 — Boxplots por Churn</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ De forma a reafirmar o que os gráfico anteriores confirmaram - não existe nenh
 
 <!-- ![Tabela de correlações](../plots_eda/05_correlation_matrix.png) -->
 <figure markdown>
-  <img src="../plots_eda/05_correlation_matrix.png" alt="Matriz de correlação das variáveis">
+  <img src="../../plots_eda/05_correlation_matrix.png" alt="Matriz de correlação das variáveis">
   <figcaption><strong>Figura 5 — Matriz de correlação</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ Monthly_Spending      0.009202
 
 <!-- ![Dispersão numéricas](../plots_eda/06_pairplot.png) -->
 <figure markdown>
-  <img src="../plots_eda/06_pairplot.png" alt="Pairplot das variáveis selecionadas por Churn">
+  <img src="../../plots_eda/06_pairplot.png" alt="Pairplot das variáveis selecionadas por Churn">
   <figcaption><strong>Figura 6 — Pairplot: variáveis selecionadas × Churn</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
