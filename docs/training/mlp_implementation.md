@@ -75,6 +75,7 @@ test  shape: (750, 20)  class counts: Counter({0: 375, 1: 375})
 ## Treinamento por Época (Alternativa)
 
 Em `train_mlp_cv_optuna.py`, implementamos também `train_mlp_with_metrics()` que:
+
 - Usa `partial_fit` para treinamento iterativo por mini-batches
 - Coleta métricas (loss, accuracy, F1) a cada época
 - Implementa early stopping monitorando `val_f1` com `patience`

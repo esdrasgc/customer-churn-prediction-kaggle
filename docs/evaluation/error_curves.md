@@ -44,6 +44,7 @@ def plot_history(history: List[EpochMetrics]):
 ### Modelo Final (LBFGS)
 
 O solver **LBFGS** utilizado no modelo final:
+
 - Convergência rápida (geralmente < 100 iterações)
 - Não requer tuning manual de learning rate
 - Otimizador de segunda ordem (usa informação da Hessiana)
@@ -52,6 +53,7 @@ O solver **LBFGS** utilizado no modelo final:
 ### Treinamento por Época (Adam/SGD)
 
 Quando usando `train_mlp_with_metrics()` com Adam:
+
 - Curvas mais suaves e grad uais
 - Early stopping previne overtraining
 - Monitoramento de `val_f1` garante parada no ponto ótimo
@@ -84,6 +86,7 @@ print(f"F1-score máximo: {max(f1_scores):.4f}")
 ### Threshold Padrão
 
 Neste projeto, utilizamos **threshold = 0.5** (padrão), dado que:
+
 - Classes foram balanceadas artificialmente nos splits
 - Log loss já calibra bem as probabilidades
 - Simplifica reprodução dos resultados

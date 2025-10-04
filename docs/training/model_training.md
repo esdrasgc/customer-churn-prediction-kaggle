@@ -21,6 +21,7 @@ results = run_training(
 ```
 
 **Características**:
+
 - Otimização automática via Optuna (10 trials)
 - Split balanceado 70/15/15 com classes equilibradas
 - Cross-validation 4-fold no conjunto de treino
@@ -48,13 +49,15 @@ clf, history, final_stats = train_mlp_with_metrics(
 ```
 
 **Métricas coletadas por época**:
+
 - `train_loss`, `val_loss`
 - `train_acc`, `val_acc`
 - `train_f1`, `val_f1`
 
 **Early Stopping**:
+
 - Monitora `val_f1` (ou `val_loss`)
-- Paraâmetro `patience`: número de épocas sem melhora antes de parar
+- Parâmetro `patience`: número de épocas sem melhora antes de parar
 - Restaura os melhores pesos ao final
 
 ## Inicialização e Regularização

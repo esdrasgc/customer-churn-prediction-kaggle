@@ -19,6 +19,7 @@ train_idx, val_idx, test_idx = stratified_custom_split_indices(
 ```
 
 **Características**:
+
 - Cada partição (treino/validação/teste) contém **exatamente o mesmo número de positivos e negativos**
 - Baseado na classe minoritária para garantir balanceamento perfeito
 - Garante `random_state=42` para reprodutibilidade
@@ -54,6 +55,7 @@ cv_scores = cross_val_score(
 ```
 
 **Objetivo**:
+
 - Sinal de robustez durante busca de hiperparâmetros
 - Evita overfitting na seleção de modelo
 - Não "contamina" validação/teste
@@ -91,6 +93,7 @@ cv_scores = cross_val_score(
 ## Reprodutibilidade
 
 **Seeds fixas em todos os componentes**:
+
 - `random_state=42` em:
   - `stratified_custom_split_indices()`
   - `MLPClassifier()`
@@ -98,5 +101,6 @@ cv_scores = cross_val_score(
   - `Optuna.Study(seed=42)` (quando aplicável)
 
 **Dados salvos**:
+
 - `data/X.pickle`, `data/y.pickle`
 - `notebooks/artifacts/*.pkl`

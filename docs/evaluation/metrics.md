@@ -92,10 +92,12 @@ weighted avg     0.5040    0.5040    0.5040       750
 ### Comparação com Baseline
 
 **Baseline (Majority Class)**:
+
 - Prever sempre classe 0 (não churn): accuracy = 68.7%
 - Prever sempre classe 1 (churn): accuracy = 31.3%
 
 Nosso modelo:
+
 - Accuracy = 50.4% (pior que baseline!)
 - Porém, **F1-score balanceado** em ambas as classes
 - Indica que o modelo está tentando generalizar, não apenas memorizar a classe majoritária

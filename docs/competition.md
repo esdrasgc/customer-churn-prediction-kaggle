@@ -86,6 +86,7 @@ print(f"Submissão gerada: {len(submission)} linhas")
 **Threshold utilizado**: 0.5 (padrão)
 
 **Justificativa**:
+
 - Split balanceado garante que probabilidades estejam centradas em 0.5
 - Simplifica reprodução
 - Não houve tempo para otimizar threshold no conjunto de validação
@@ -93,6 +94,7 @@ print(f"Submissão gerada: {len(submission)} linhas")
 ### Leaderboard
 
 **Estrutura**:
+
 - **Public Leaderboard**: 50% do test.csv (1.000 amostras)
 - **Private Leaderboard**: 50% do test.csv (1.000 amostras) — usado para ranking final
 

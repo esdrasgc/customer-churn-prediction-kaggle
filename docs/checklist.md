@@ -143,6 +143,7 @@ Verificação do atendimento aos requisitos da disciplina (etapas 1–8 do proje
 **Progresso**: 8/8 etapas obrigatórias completas ✅
 
 **Observações**:
+
 - Toda documentação traduzida para português
 - Código completo e reproduzível
 - Random seeds fixos (42) para reprodutibilidade
@@ -150,6 +151,7 @@ Verificação do atendimento aos requisitos da disciplina (etapas 1–8 do proje
 - GitHub Pages configurado via workflow
 
 **Próximos passos**:
+
 1. Realizar submissão no Kaggle
 2. Adicionar screenshot do leaderboard
 3. Exportar e adicionar plots de erro
