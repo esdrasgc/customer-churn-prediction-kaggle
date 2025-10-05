@@ -6,7 +6,7 @@ Além disso, o churn é um dos indicadores mais críticos para o varejo moderno,
 
 Em síntese, entendendo a importância desse indicador e por consequência a previsão dele, o dataset foi selecionado, buscando replicar o desafio do dia a dia de diversas varejistas através da competição.
 
-Com relação ao dataset em si, ele conta com 17 colunas, sendo uma delas o target (*Churn*):
+Com relação ao dataset em si, ele conta com $17$ colunas, sendo uma delas o target (*Churn*):
 
 - Customer_ID
 - Age

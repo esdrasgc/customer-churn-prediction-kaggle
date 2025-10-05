@@ -135,7 +135,6 @@ nav:
     - Training & Testing Strategy: ./training/training_testing_strategy.md
     - Error Curves & Visualization: ./evaluation/error_curves.md
     - Evaluation Metrics: ./evaluation/metrics.md
-  - Compliance Checklist: ./checklist.md
   - Competition Submission: ./competition.md
   - Conclusion: ./conclusion.md
   - References: ./references.md

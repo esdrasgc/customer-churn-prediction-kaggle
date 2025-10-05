@@ -70,7 +70,6 @@ Data columns (total 17 columns):
 
 Com relação a distribuição dos dados, e esses perante as classes 0 e 1 da variável Churn, é possível observar que o conjunto de treinamento contém a maior parte das observações sendo clientes ainda ativos, isto é, Churn = 0.
 
-<!-- ![Distribuição do target](../plots_eda/01_target_distribution.png) -->
 <figure markdown>
   <img src="../../plots_eda/01_target_distribution.png" alt="Distribuição do target">
   <figcaption><strong>Figura 1 — Distribuição do target (Churn)</strong><br><em>Fonte: Produção Autoral</em></figcaption>
@@ -78,7 +77,6 @@ Com relação a distribuição dos dados, e esses perante as classes 0 e 1 da va
 
 Analisando agora as variáveis categórias contra a variável target (Churn), pode-se perceber que a distribuição das classes da variável target contém o mesmo padrão para a grande maioria das classes das variáveis categóricas, sendo o mesmo da distribuição geral. Em outras palavras, o dataset apresenta $31,3%$ das observações sendo Churn = 1, e dentre todas as classes das variáveis categórias (Gender, Location, Subscription_Type, Last_Interaction_Type), a classe Churn apresenta a mesma distribuição, ficando próximo de 30% das observações apresentadas. A variável categória que possui maior variabilidade relacionada a distribuição de Churn é Location, que possui algumas classes como Florida e Illinois, com as distribuições de aproximadamente $33%$ e $29%$ respectivamente.
 
-<!-- ![Distribuição do target contra variáveis categórias](../plots_eda/02_categorical_analysis.png) -->
 <figure markdown>
   <img src="../../plots_eda/02_categorical_analysis.png" alt="Distribuição do target por variáveis categóricas">
   <figcaption><strong>Figura 2 — Churn por variáveis categóricas</strong><br><em>Fonte: Produção Autoral</em></figcaption>
@@ -88,13 +86,11 @@ Com relação as variáveis numéricas, e distribuição das observações, é p
 
 É possível identificar essa distribuição muito parecida para ambas as classes a partir dos boxplots, onde os quartis são muito parecidos em todas as variáveis. A única variável númerica que possui uma maior distinção de distribuição em relação ao Churn é Satisfaction Score, o que faz bastante sentido por possuir uma relação instrínseca com a decisão do consumidor de cancelar ou não a sua assinatura.
 
-<!-- ![Distribuição do target contra variáveis numéricas](../plots_eda/03_numeric_distributions.png) -->
 <figure markdown>
   <img src="../../plots_eda/03_numeric_distributions.png" alt="Distribuições numéricas por classe de Churn">
   <figcaption><strong>Figura 3 — Distribuições numéricas por classe</strong><br><em>Fonte: Produção Autoral</em></figcaption>
 </figure>
 
-<!-- ![Boxplots contra target](../plots_eda/04_boxplots_by_target.png) -->
 <figure markdown>
   <img src="../../plots_eda/04_boxplots_by_target.png" alt="Boxplots por classe de Churn">
   <figcaption><strong>Figura 4 — Boxplots por Churn</strong><br><em>Fonte: Produção Autoral</em></figcaption>
@@ -102,7 +98,6 @@ Com relação as variáveis numéricas, e distribuição das observações, é p
 
 De forma a reafirmar o que os gráfico anteriores confirmaram - não existe nenhuma variável explicitamente impactante na decisão do indivíduo cancelar ou não a sua assinatura - os valores de correlação encontrados entre as variáveis e a variável target são muito pequenos, com o maior de todos sendo contra Discount Used $0.0204$.
 
-<!-- ![Tabela de correlações](../plots_eda/05_correlation_matrix.png) -->
 <figure markdown>
   <img src="../../plots_eda/05_correlation_matrix.png" alt="Matriz de correlação das variáveis">
   <figcaption><strong>Figura 5 — Matriz de correlação</strong><br><em>Fonte: Produção Autoral</em></figcaption>
@@ -123,7 +118,6 @@ Complaint_Tickets     0.010890
 Monthly_Spending      0.009202
 ```
 
-<!-- ![Dispersão numéricas](../plots_eda/06_pairplot.png) -->
 <figure markdown>
   <img src="../../plots_eda/06_pairplot.png" alt="Pairplot das variáveis selecionadas por Churn">
   <figcaption><strong>Figura 6 — Pairplot: variáveis selecionadas × Churn</strong><br><em>Fonte: Produção Autoral</em></figcaption>

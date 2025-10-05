@@ -119,7 +119,17 @@ Conforme rubrica do projeto:
 | +0.5 | Submissão válida em competição reconhecida (proof required) |
 | +0.5 | Submissão válida rankando no top 50% do leaderboard |
 
-**Status**: A completar após submissão
+Segue então, o URL de submissão e do leaderboard da [competição](https://www.kaggle.com/competitions/ultimate-customer-churn-prediction-challenge/leaderboard).
+
+<figure markdown>
+  <img src="../competition/submissions_churn_challenge.png" alt="Submissão para a competição">
+  <figcaption><strong>Figura 1 — Submissão competição</strong><br><em>Fonte: Produção Autoral</em></figcaption>
+</figure>
+
+<figure markdown>
+  <img src="../competition/leaderboard_churn_challenge.png" alt="Ranking final da competição">
+  <figcaption><strong>Figura 2 — Ranking final da competição</strong><br><em>Fonte: Produção Autoral</em></figcaption>
+</figure>
 
 ## Reprodutibilidade
 
@@ -129,12 +139,3 @@ Conforme rubrica do projeto:
 - **Treinado em**: train + validation (4.260 amostras)
 - **Hiperparâmetros**: Conforme seção "Implementação do MLP"
 - **Random state**: 42
-
-### Checklist de Submissão
-
-- [x] Preprocessor treinado e salvo
-- [x] Modelo final retreinado em train+val
-- [x] Pipeline de predição documentado
-- [ ] Submissão realizada no Kaggle
-- [ ] Screenshot do leaderboard adicionado
-- [ ] Link do perfil incluído na documentação
